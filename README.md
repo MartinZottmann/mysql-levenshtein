@@ -1,23 +1,23 @@
-# Levensthein for MySQL
+# Levenshtein for MySQL
 
-This is an implementation of Levensthein distance calculation in MySQL.
+This is an implementation of Levenshtein distance calculation in MySQL.
 
 #### Installation
 
 ```
-$ mysql database-name < levensthein.sql
+$ mysql database-name < levenshtein.sql
 ```
 
 #### Usage
 
 ```sql
-SELECT levenshtein("Levensthein", "Levenstein");
+SELECT levenshtein("Levenshtein", "Levenstein");
 
 Result: 1
 ```
 
 ```sql
-SELECT levenshtein_ratio("Levensthein", "Levenstein");
+SELECT levenshtein_ratio("levenshtein", "Levenstein");
 
 Result: 91
 ```
